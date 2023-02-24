@@ -8,25 +8,56 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bfe906e9c2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1 class="heading">About</h1>
-        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, voluptatum.</h3>
+        <h1 class="heading">Yesenia Marquina</h1>
+        <h3>Gaslight. Gatekeep. Girlboss. 💅✨</h3>
     </header>
     <main>
         <div>
-            <img src="pfp.png" alt="Yesenia Marquina">
+            <img src="./images/pfp.png" alt="Yesenia Marquina">
         </div>
-        <div>
+        <div class="text-container">
             <div class="btn-container">
-                <button class="btn">History</button>
-                <button class="btn">Vision</button>
-                <button class="btn">Goals</button>
+                <button class="btn" data-id="About Me">About Me</button>
+                <button class="btn" data-id="Experience">Experience</button>
+                <button class="btn" data-id="Links">Links</button>
             </div>
-            <div class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, nulla voluptatum similique quis omnis quibusdam magni cupiditate rem dolores quam, inventore optio, natus ullam. Laborum neque dolorum adipisci sed natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam facilis officiis quaerat eos perspiciatis harum? Voluptas vitae nisi magni vero, adipisci, error veniam hic aut perspiciatis rem officia cum maxime!natus?Lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, quidem sit. Quia molestias voluptate facere odio, impedit laborum quasi error qui repudiandae dicta consequuntur mollitia recusandae? Voluptatum eveniet saepe pariatur?</div>
+
+            <article class="desc">
+            <div class="active card-text">
+                <h4 class="card-title">About Me</h4>
+                <p>My name is Yesenia Marquina. I was born and raised in San Diego, CA. I am the oldest amongst my 2 other siblings. I graduated from California State University, San Marcos with a Bachelor's Degree in Computer Science and currently work at SDG&E. Previously I worked at Amazon as a Recuriting Coordinator and before that I was a Legal Assistant at a local Family Law firm. On my free time I like to go to the gym and go on hikes. I love spending time with family and eating good food. I've been obessed with Korean BBQ lately. Please feel free to reach out if you would like to know more about me. (:</p>
+            </div>
+            <div class="card-text experience">
+                <h4 class="card-title">Experience</h4>
+                <ul>
+                    <li>Ops Assistant @ SDGE (Dec. 2022 - Present)</li>
+                    <li>Recuriting Coordinator @ Amazon (April 2022 - Nov. 2022)</li>
+                    <li> Legal Assistant @ Law Office of Alexandra McIntosh (March 2021 - April 2022)</li>
+                    <li>Customer Service Associate @ The Home Depot (Oct. 2020 - March 2021)</li>
+                    <li>Escrow Assistant @ Ticor Title (Aug. 2020 - Sept. 2020)</li>
+                    <li>CS and Math Tutor @ CSUSM STEM Center (Aug. 2019 - May 2020)</li>
+                    <li>Math Tutor @ CSUSM Math Lab (Aug. 2018 - May 2019)</li>
+                </ul>
+            </div>
+            <div class="card-text socials">
+                <h4 class="card-title">Links</h4>
+                <ul class="socials-links">
+                <li><a href="https://github.com/ymarqu"><i class="fa-brands fa-github"></i></a>Github</li>
+                <li><a href="https://www.tiktok.com/@yasaniia"><i class="fa-brands fa-tiktok"></i></a>TikTok</li>
+                <li><a href="https://www.instagram.com/yeseniiiaaaa__"><i class="fa-brands fa-instagram"></i></a>Instagram</li>
+                <li><a href="mailto:yeseniamrqna@gmail.com"><i class="fa-solid fa-envelope"></i></a>Email</li>
+               </ul>
+            </div>
+
+            </article>
         </div>
+       <footer><p>&#169; <span class="year"></span> | YeseniaMarquina</p></footer>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
