@@ -16,7 +16,7 @@ btns.forEach(btn => {
             b.classList.remove("color");
             btn.classList.add("color");
         })
-        let id = btn.dataset.id;
+    let id = btn.dataset.id;
     cards.forEach(card => {
         card.classList.remove("active");
     })
